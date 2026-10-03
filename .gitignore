@@ -1,3 +1,13 @@
 logs/
 venv/
 *.pyc
+# Ignore Python virtual environments
+venv/
+.venv/
+env/
+_pycache/
+.pytest_cache/
+__pycache__/
+screenshots/
+testresults/
+# Ignore Jupyter Notebook checkpoints
